@@ -3,3 +3,26 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+main {
+  max-width: 30em;
+  text-align: center;
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}

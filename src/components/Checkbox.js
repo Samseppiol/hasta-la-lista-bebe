@@ -6,7 +6,7 @@ export default function Checkbox({
   label
 }) {
   return (
-    <label>
+    <label className='mb-3'>
       <input type='checkbox' checked ={ checked }     />
       {' '}
       { label }
